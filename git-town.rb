@@ -2,9 +2,9 @@ require "formula"
 
 class GitTown < Formula
   homepage 'https://github.com/Originate/git-town'
-  url 'https://github.com/Originate/git-town/archive/v0.1.tar.gz'
-  sha1 '84776d266fd0a9c38e0dd56cd5118fdb34af83af'
-  version '0.1'
+  url 'https://github.com/Originate/git-town/archive/v0.2.1.tar.gz'
+  sha1 'f2592822c821ddc9b3136a0857a433e11d2069c5'
+  version '0.2.1'
 
   def install
     libexec.install Dir['*']
