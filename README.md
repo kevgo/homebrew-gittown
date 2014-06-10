@@ -3,6 +3,10 @@
 This repository is the Homebrew tap for <a href="https://github.com/Originate/git-town" target="_blank">Git Town</a>.
 It allows users to install Git-Town using Homebrew.
 
+#### Authors
+* <a href="https://github.com/jiexi" target="_blank">Jiexi Luan</a>
+* <a href="https://github.com/kevgo" target="_blank">Kevin Goslar</a>
+
 
 ## Releasing a new version
 
