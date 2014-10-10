@@ -15,7 +15,7 @@ It allows users to install Git-Town using Homebrew.
 * bump the version numbers in _git-town.rb_ and push to Github
 
 ```shell
-brew unintall git-town
+brew uninstall git-town
 brew untap Originate/gittown
 brew tap kevgo/gittown
 brew install git-town
