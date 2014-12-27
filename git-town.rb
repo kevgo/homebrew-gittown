@@ -6,6 +6,9 @@ class GitTown < Formula
   sha1 '4d089310a3368285b16f5ddb2c1bfb0b0b02a29c'
   version '0.4.1'
 
+  depends_on 'dialog' => :recommended
+
+
   def install
     libexec.install Dir['*']
     bin.install_symlink Dir["#{libexec}/git-*"]
