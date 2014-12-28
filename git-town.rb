@@ -12,4 +12,14 @@ class GitTown < Formula
     bin.install_symlink "#{libexec}/helpers"
     man1.install_symlink Dir["#{libexec}/man/man1/*.1"]
   end
+
+
+  def caveats
+    <<-EOS.undent
+      To install Fish shell autocompletions, please run
+
+      ln -s #{prefix}/autocomplete/git.fish ~/.config/fish/completions/git.fish
+
+    EOS
+  end
 end
