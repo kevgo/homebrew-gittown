@@ -12,4 +12,10 @@ class GitTown < Formula
     bin.install_symlink "#{libexec}/helpers"
     man1.install_symlink Dir["#{libexec}/man/man1/*.1"]
   end
+
+
+  # Verify the installation
+  test do
+    system bin/'git', 'town'
+  end
 end
