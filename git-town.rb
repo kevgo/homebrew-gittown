@@ -18,7 +18,7 @@ class GitTown < Formula
     <<-EOS.undent
       To install Fish shell autocompletions, please run
 
-      ln -s #{prefix}/autocomplete/git.fish ~/.config/fish/completions/git.fish
+      ln -s #{libexec}/autocomplete/git.fish ~/.config/fish/completions/git.fish
 
     EOS
   end
