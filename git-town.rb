@@ -9,7 +9,7 @@ class GitTown < Formula
 
 
   def install
-    bin.install Dir['src/**/*']
+    bin.install Dir['src/*']
     man1.install Dir['man/man1/*']
   end
 end
