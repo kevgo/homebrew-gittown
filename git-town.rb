@@ -9,7 +9,14 @@ class GitTown < Formula
 
 
   def install
-    bin.install Dir['src/*']
+    # Install the source
+    libexec.install Dir['src/*']
+
+    # Symlink the executables
+    bin.install_symlink Dir["#{libexec}/git-*"]
+    bin.install_symlink "#{libexec}/helpers"
+
+    # Install the man pages
     man1.install Dir['man/man1/*']
   end
 end
