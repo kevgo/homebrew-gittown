@@ -3,7 +3,7 @@ require "formula"
 class GitTown < Formula
   homepage 'https://github.com/Originate/git-town'
   url 'https://github.com/Originate/git-town/archive/v0.5.tar.gz'
-  sha1 '4d089310a3368285b16f5ddb2c1bfb0b0b02a29c'
+  sha1 '819da87c50b1b78ba789caf6109c4d5a7f073154'
 
   depends_on 'dialog' => :recommended
 
