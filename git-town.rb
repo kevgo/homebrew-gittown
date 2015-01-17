@@ -23,10 +23,18 @@ class GitTown < Formula
 
   def caveats
     <<-EOS.undent
-      To install Fish shell autocompletions, please run
 
+      To install the Fish shell autocompletions,
+      run "git town install-fish-autocompletion"
+      in the terminal.
+
+      To install the completions manually, make
+      #{libexec}/autocomplete/git.fish
+      available as ~/.config/fish/completions/git.fish.
+
+      In a standard setup, this looks like:
+      mkdir -p ~/.config/fish/completions
       ln -s #{libexec}/autocomplete/git.fish ~/.config/fish/completions/git.fish
-
     EOS
   end
 end
