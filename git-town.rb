@@ -35,6 +35,7 @@ class GitTown < Formula
       In a standard setup, this looks like:
       mkdir -p ~/.config/fish/completions
       ln -s #{libexec}/autocomplete/git.fish ~/.config/fish/completions/git.fish
+
     EOS
   end
 end
